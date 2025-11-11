@@ -4,3 +4,8 @@ echo ".env" >> .gitignore
 echo "dist/" >> .gitignore
 echo "build/" >> .gitignore
 echo ".next/" >> .gitignore
+node_modules/
+.env
+dist/
+build/
+.next/
