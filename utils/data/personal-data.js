@@ -2,11 +2,11 @@ export const personalData = {
   name: 'Aniket Mallick',
   profile: '/profile.jpg',
   designation: 'Software Developer',
-       description: `I’m Aniket Mallick, a passionate Software Engineer and M.Tech. graduate in ECE from NIT Raipur (2025)   with a strong focus on building intelligent and scalable web applications.\n
-        At ITJOBXS, I engineered high-performance systems — from a responsive eCommerce platform to an advanced bot-detection system — boosting user engagement by 30% and reducing spam registrations by 70%.\n
-        Recently, I developed Atlas – a ChatGPT Clone, a full-stack generative AI platform capable of handling 500+ requests per hour, powered by RAG (Retrieval-Augmented Generation) and real-time chat with Socket.io.\n
-        With expertise in React, Redux, Node.js, MongoDB, and solid problem-solving skills (600+ coding challenges solved, Top 10% at Bhilai Hacks 2023), I strive to design solutions that are not only functional but also impactful and efficient.\n
-        Explore my projects like MovieVerse, Shortest Path Visualizer, and Atlas to see how I turn complex ideas into smooth, scalable digital experiences.`,
+       description: `I’m Aniket Mallick, a Software Engineer and M.Tech. graduate in Electronics and Communication from NIT Raipur (2025), passionate about building scalable, intelligent, and user-focused web systems. At ITJOBXS, I worked across the full stack to deliver impactful solutions, including a responsive e-commerce platform that enhanced engagement and a bot-detection system that reduced spam registrations by 70%.
+
+                    I recently developed Moodify, a cloud-deployed music streaming platform built with a microservice architecture using AWS (ECS, S3, EC2) and Google OAuth. It enables seamless artist uploads, efficient content management, and real-time multi-device synchronization. I also built Atlas, a production-grade ChatGPT-style generative AI platform powered by a RAG pipeline, real-time Socket.io communication, and an optimized backend capable of handling over 500 requests per hour.
+
+                     With strong expertise in React, Redux, Node.js, and MongoDB, I’ve solved over 600 coding challenges and ranked in the top 10% at Bhilai Hacks 2023. I focus on engineering systems that balance performance with usability — projects like MovieVerse, Moodify, and Atlas reflect my drive to turn complex ideas into smooth, scalable, and impactful user experiences.`,
 
   email: 'aniketmallick0007@gmail.com',
   phone: '+918223985170',
