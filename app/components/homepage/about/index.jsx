@@ -1,8 +1,5 @@
 // @flow strict
-
 import { personalData } from "@/utils/data/personal-data";
-import Image from "next/image";
-
 
 function AboutSection() {
   return (
@@ -13,27 +10,18 @@ function AboutSection() {
         </span>
         <span className="h-36 w-[2px] bg-[#1a1443]"></span>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
-        <div className="order-2 lg:order-1">
-          <p className="font-medium mb-5 text-gray-700 text-xl uppercase">
-            Who am I?
-          </p>
-          <p className="text-gray-500 text-sm lg:text-lg">
-            {personalData.description}
-          </p>
-        </div>
-        <div className="flex justify-center order-1 lg:order-2">
-          <Image
-            src={personalData.profile}
-            width={280}
-            height={280}
-            alt="codeantik"
-            className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
-          />
-        </div>
+
+      {/* Single full-width column */}
+      <div className="max-w-4xl mx-auto text-center px-4">
+        <p className="font-medium mb-5 text-gray-700 text-xl uppercase tracking-wide">
+          Who am I?
+        </p>
+        <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
+          {personalData.description}
+        </p>
       </div>
     </div>
   );
-};
+}
 
 export default AboutSection;
